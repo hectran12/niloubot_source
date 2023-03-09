@@ -10,7 +10,7 @@ module.exports = {
         
         var user = interaction.user;
         
-        const response = await axios.get('https://tronghoa.dev/gi/get_free_geforce_now_jp/genlink.php', {
+        const response = await axios.get('<private api contact admin>', {
             params: {
                 'discord_user': `${user.id}`
             },
@@ -70,7 +70,7 @@ module.exports = {
                         clearInterval(idinter);
                         return;
                     }
-                    const response = await axios.get('https://tronghoa.dev/gi/get_free_geforce_now_jp/genlink.php', {
+                    const response = await axios.get('<private api contact admin>', {
                         params: {
                             'discord_user': `${user.id}`
                         },

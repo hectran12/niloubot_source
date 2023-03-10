@@ -1,6 +1,5 @@
 
 const { SlashCommandBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, EmbedBuilder, Attachment} = require('discord.js');
-const { createCanvas } = require('canvas')
 const axios = require('axios');
 module.exports = {
     data: new SlashCommandBuilder()
